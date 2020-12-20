@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $blue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  line-height: 1;
+  font-size: 1.5rem;
+  color: $blue;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+  font-family: Georgia, Cambria, Cochin, Times, "Times New Roman", serif;
+}
+
+h2 {
+  color: $green;
+  font-size: 2rem;
+  font-style: italic;
+  letter-spacing: -1px;
+  margin-bottom: 1rem;
+  scroll-margin-top: 4rem;
+}
+
+h3 + p {
+  margin-top: 0.25rem;
+}
+
+p {
+  color: #222;
+}
+
+ul {
+  padding-left: 0;
+}
+
+blockquote {
+  color: $blue;
+  font-family: Georgia, Cambria, Cochin, Times, "Times New Roman", serif;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.active {
+  opacity: 1;
+}
+
+dl {
+  width: 100%;
+}
+
+dd {
+  margin-left: 0;
+  margin-top: 0.5rem;
+  text-align: left;
+  font-weight: bold;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
